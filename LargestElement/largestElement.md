@@ -88,7 +88,7 @@ Here is an example of various outputs. *Please note that your results may differ
 - the function must print the result as stated in examples using print statement
 
 ## Submitting
-Submit a zip file named NameSurname.zip that contains the file Assignment.java.
+Submit a zip file named NameSurname.zip that contains the file TestAssignment.java.
 
 ## Assessment
 We will run a pack of tests and review your work manually to check that your programs meet the specifications. Our decision will be based on the number of tests you pass and on the code and solution quality.
