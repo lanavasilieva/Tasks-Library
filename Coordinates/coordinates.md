@@ -12,6 +12,9 @@ You'll need only basic Java features, **do not import** any libraries (except ja
 
 Add a file TestAssignment.java to a .zip archive named NameSurname.zip. For example: `JaneDoe.zip`
 
+**Print Statements** <br>
+Only simulation() method must have print statement. **Do not use print statements** in your other methods.
+
 **Mathematics notation** <br>
 *Intervals*. Here we are using [the international standard](https://en.wikipedia.org/wiki/Interval_(mathematics)#Notations_for_intervals) to define intervals. Please have it in mind while making boundaries check.
 

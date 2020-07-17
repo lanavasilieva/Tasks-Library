@@ -12,6 +12,9 @@ You'll need only basic Java features, **do not import** any libraries (except ja
 
 Add a file TestAssignment.java to a .zip archive named NameSurname.zip. For example: `JaneDoe.zip`
 
+**Print Statements** <br>
+Only simulation() method must have print statement. **Do not use print statements** in your other methods.
+
 **Mathematics notation** <br>
 *Intervals*. Here we are using [the international standard](https://en.wikipedia.org/wiki/Interval_(mathematics)#Notations_for_intervals) to define intervals. Please have it in mind while making boundaries check.
 
@@ -30,10 +33,10 @@ Write a program `matrixGeneration(int n)` that takes an integer `n` and creates 
 
 Here is an example of matrices for various values of `n`. *Please note that your results may differ from provided since matrices are filled with random numbers.*:
 
-    matrixGeneration(3)
+    > matrixGeneration(3)
     {{70, 67, 4}, {49, 63, 90}, {77, 7, 93}}
     
-    matrixGeneration(5)
+    > matrixGeneration(5)
     {{97, 75, 19, 5, 22}, {56, 67, 33, 7, 96}, {39, 15, 57, 22, 10}, {81, 69, 95, 19, 60}, {32, 70, 56, 34, 1}}
 
 ### Step 2: Find average sum
@@ -55,10 +58,10 @@ This function should:
 
 Here is an example of various outputs. *Please note that your results may differ from provided since matrices are filled with random numbers.*:
 
-    averageSum(5, 2)
+    > averageSum(5, 2)
     31.0
     
-    averageSum(12, 5)
+    > averageSum(12, 5)
     62.76
 
 ### Step 3: Running a simulation
@@ -70,10 +73,10 @@ Here probability P of an event is specified by: <br>
 
 Here is an example of various outputs. *Please note that your results may differ from provided since matrices are filled with random numbers.*:
 
-    simulation(10, 3, 400.0, 100000)
+    > simulation(10, 3, 400.0, 100000)
     P = 0.08
     
-    simulation(16, 5, 1200.0, 10000)
+    > simulation(16, 5, 1200.0, 10000)
     P = 0.19
 
 **Requirements**:
