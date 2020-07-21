@@ -22,7 +22,7 @@ Only simulation() method must have print statement. **Do not use print statement
 P(event) = number of favorable outcomes / total number of outcomes
 
 ### Step 1: Matrix generation
-Write a program `matrixGeneration(int n)` that takes an integer `n` and creates an `n x n matrix` filled in with random numbers from 1 to 100 in random order.
+Write a program `matrixGeneration(int n)` that takes an integer `n` and creates an `n x n matrix` filled in with random numbers in random order.
 
 **Requirements**:
 - the function accepts a single parameter `n`
