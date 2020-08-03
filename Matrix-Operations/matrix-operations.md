@@ -124,6 +124,9 @@ stderr: <br>
 `Exception caught: IllegalArgumentException. Can't perform multiplication.`
 
 
+You can use [our test data](../data) to test your solution.
+
+
 **We use the following definitions:**
 Matrix https://mathworld.wolfram.com/Matrix.html <br>
 Matrix multiplication https://mathworld.wolfram.com/MatrixMultiplication.html <br>
