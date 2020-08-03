@@ -8,25 +8,31 @@ We `WILL NOT` grade an assignment submitted omitting these rules.
 ### Matrix Jugglery
 The purpose of the task is to implement basic matrix operations: addition, subtraction and multiplication. <br>
 Program run example: <br>
-`> java TestAssignment < data01.txt > result01.txt` <br>
-`> cat result01.txt`<br>
-`[5 1 1; 9 0 0]`
+```
+> java TestAssignment < data01.txt > result01.txt
+> cat result01.txt
+[5 1 1; 9 0 0]
+```
 
 Each matrix is given in the following way: `name=[x11 x12 ... x1n; x21 x22 ... x2n;...,xm1 xm2 ... xmm]`
 Matrix operations are described after all matrix definitions.
 
 Example 01: <br>
-`A=[1 2 2; 0 3 1; -1 2 -4]` <- first matrix definition, matrix A is 3x3 <br>
-`B=[2 1 0; -2 -1 -1; 1 1 2]` <- second matrix definition, matrix B is 3x3 <br>
-`` <- new line <br>
-`A+B` <- matrix operation (addition) <br>
+```
+A=[1 2 2; 0 3 1; -1 2 -4] <- first matrix definition, matrix A is 3x3
+B=[2 1 0; -2 -1 -1; 1 1 2] <- second matrix definition, matrix B is 3x3
+ <- new line
+A+B <- matrix operation (addition)
+```
 
 Example 02: <br>
-`M=[1 2 2; 0 3 1; -1 2 -4]` <- first matrix definition, matrix M is 3x3 <br>
-`N=[2 1 0; -2 -1 -1; 1 1 2]` <- second matrix definition, matrix N is 3x3 <br>
-`K=[2 3; 5 0; 3 1]` <- third matrix definition, matrix K is 3x2<br>
-`` <- new line <br>
-`M+K+N+N*N+M+N` <- matrix operations (5 additions and 1 multiplication)
+```
+M=[1 2 2; 0 3 1; -1 2 -4] <- first matrix definition, matrix M is 3x3
+N=[2 1 0; -2 -1 -1; 1 1 2] <- second matrix definition, matrix N is 3x3
+K=[2 3; 5 0; 3 1] <- third matrix definition, matrix K is 3x2<br>
+ <- new line
+M+K+N+N*N+M+N <- matrix operations (5 additions and 1 multiplication)
+```
 
 ### Requirements
 Name of the matrix has to be an uppercase letter. <br>
@@ -51,72 +57,80 @@ Error messages should be formed in the following way: <br>
 `Exception caught: %exceptionName%. Can't *do something*.`
 
 ### More Examples
-stdin:
-`B=[5 2 4; 0 2 -1; 3 -5 -4]
+stdin: <br>
+```
+B=[5 2 4; 0 2 -1; 3 -5 -4]
 E=[-6 -5 -8; -1 -1 -10; 10 0 -7]
 R=[-1 -7 6; -2 9 -4; 6 -10 2]
 
 R+E+B
-`
-stdout:
+```
+
+stdout: <br>
 `[-2 -10 2; -3 10 -15; 19 -15 -9]`
 
-stdin:
-`K=[-10 0 2; -6 10 -6; -9 2 0]
+stdin: <br>
+```
+K=[-10 0 2; -6 10 -6; -9 2 0]
 D=[0 6 7]
 M=[10 -5 -4]
 
 D*K+M
-`
-stdout:
-`[-89 69 -40]`
+```
+stdout: <br>
+[-89 69 -40]
 
-stdin:
-`R=[6 9; -3 9; -9 10]
+stdin: <br>
+```
+R=[6 9; -3 9; -9 10]
 K=[2 -8 8; -1 2 -4]
 
 K+K*R*K
-`
-stdout:
+```
+stdout: <br>
 `[-96 332 -384; 78 -252 312]`
 
-stdin:
-`M=[-9 5 9; -7 8 7; 10 -3 3]
+stdin: <br>
+```
+M=[-9 5 9; -7 8 7; 10 -3 3]
 
-M*M+M-M`
-
-stdout:
+M*M+M-M
+```
+stdout: <br>
 `[136 -32 -19; 77 8 14; -39 17 78]`
 
-stdin:
-`M=[-9 5 9; -7 8x 7; 10 -3 3]
+stdin: <br>
+```
+M=[-9 5 9; -7 8x 7; 10 -3 3]`
 
-M*M`
+M*M
+```
 
 stdout:
 
-stderr:
+stderr: <br>
 `Exception caught: IllegalArgumentException. Can't read matrix.`
 
-stdin:
-`P=[6 0 9; -3 1 9; -9 2 10]
+stdin: <br>
+```
+P=[6 0 9; -3 1 9; -9 2 10]
 Q=[2 -8 8 0; -1 2 -4 2]
 
-P+Q*P+Q`
-
+P+Q*P+Q
+```
 stdout:
 
-stderr:
+stderr: <br>
 `Exception caught: IllegalArgumentException. Can't perform multiplication.`
 
 
-** We use the following definitions: **
-Matrix https://mathworld.wolfram.com/Matrix.html
-Matrix multiplication https://mathworld.wolfram.com/MatrixMultiplication.html
+**We use the following definitions:**
+Matrix https://mathworld.wolfram.com/Matrix.html <br>
+Matrix multiplication https://mathworld.wolfram.com/MatrixMultiplication.html <br>
 Matrix addition https://mathworld.wolfram.com/MatrixAddition.html
 
 ### Non-functional Requirements
 Your solution `MUST` have a Javadoc <br>
 You code `MUST` be readable and follow any of known code conventions <br>
-You `MUST` cover at least 50% of your code with unit tests <br>
+You `MUST` cover at least 25% of your code with unit tests <br>
 
