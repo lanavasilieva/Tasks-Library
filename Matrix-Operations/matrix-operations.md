@@ -59,7 +59,7 @@ You can read `A+B*C+D*E-F` as `((A+(B*C))+(D*E))-F` <br>
 
 ### More Examples
 
-Example 03: <br>
+**Example 03:** <br>
 stdin: <br>
 ```
 S=[1]
@@ -68,10 +68,15 @@ P=[1]
 S+P
 ```
 stdout: <br>
-`[2]`<br>
+```
+[2]
+```
 stderr: <br>
+```
+```
 
-Example 04: <br>
+
+**Example 04:** <br>
 stdin: <br>
 ```
 B=[5 2 4; 0 2 -1; 3 -5 -4]
@@ -82,11 +87,14 @@ R+E+B
 ```
 
 stdout: <br>
-`[-2 -10 2; -3 10 -15; 19 -15 -9]`<br>
+```
+[-2 -10 2; -3 10 -15; 19 -15 -9]
+```
 stderr: <br>
+```
+```
 
-
-Example 05: <br>
+**Example 05:** <br>
 stdin: <br>
 ```
 K=[-10 0 2; -6 10 -6; -9 2 0]
@@ -96,11 +104,15 @@ M=[10 -5 -4]
 D*K+M
 ```
 stdout: <br>
-`[-89 69 -40]` <br>
+```
+[-89 69 -40]
+```
 stderr: <br>
+```
+```
 
 
-Example 06: <br>
+**Example 06:** <br>
 stdin: <br>
 ```
 R=[6 9; -3 9; -9 10]
@@ -109,11 +121,15 @@ K=[2 -8 8; -1 2 -4]
 K+K*R*K
 ```
 stdout: <br>
-`[-96 332 -384; 78 -252 312]`<br>
+```
+[-96 332 -384; 78 -252 312]
+```
 stderr: <br>
+```
+```
 
 
-Example 07: <br>
+**Example 07:** <br>
 stdin: <br>
 ```
 M=[-9 5 9; -7 8 7; 10 -3 3]
@@ -121,11 +137,15 @@ M=[-9 5 9; -7 8 7; 10 -3 3]
 M*M+M-M
 ```
 stdout: <br>
-`[136 -32 -19; 77 8 14; -39 17 78]`<br>
+```
+[136 -32 -19; 77 8 14; -39 17 78]
+```
 stderr: <br>
+```
+```
 
 
-Example 08: <br>
+**Example 08:** <br>
 stdin: <br>
 ```
 M=[-9 5 9; -7 8x 7; 10 -3 3]`
@@ -134,12 +154,16 @@ M*M
 ```
 
 stdout: <br>
+```
+```
 
 stderr: <br>
-`Exception caught: IllegalArgumentException. Can't read matrix.`
+```
+Exception caught: IllegalArgumentException. Can't read matrix.
+```
 
 
-Example 09: <br>
+**Example 09:** <br>
 stdin: <br>
 ```
 P=[6 0 9; -3 1 9; -9 2 10]
@@ -148,9 +172,12 @@ Q=[2 -8 8 0; -1 2 -4 2]
 P+Q*P+Q
 ```
 stdout: <br>
-
+```
+```
 stderr: <br>
-`Exception caught: IllegalArgumentException. Can't perform multiplication.`
+```
+Exception caught: IllegalArgumentException. Can't perform multiplication.
+```
 
 
 You can use [our test data](data) to test your solution.
