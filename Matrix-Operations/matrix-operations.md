@@ -42,6 +42,8 @@ M+K+N+N*N+M+N               <- matrix operations (5 additions and 1 multiplicati
 - Name of the matrix has to be an uppercase letter. <br>
 - Input should always follow the same pattern: matrix definitions - new line - matrix operations. <br>
 - Each matrix is defined on a separate line. <br>
+- Matrix must have valid size to perform operations (see operations definitions below). <br>
+- You may assume that all matrices are uniform. <br>
 - Elements are separated by whitespace, rows are separated by semicolon. <br>
 - Elements are wrapped in square brackets. <br>
 - Operations are separated from matrix definition with exactly one new line. <br>
@@ -53,7 +55,7 @@ You can read `A+B*C+D*E-F` as `((A+(B*C))+(D*E))-F` <br>
 - Output of the program is the result of defined operations. <br>
 - Number of matrices are limited by the number of letters in English alphabet, length of operation expression is not limited. <br>
 - Every element in matrix is an integer number.<br>
-- If any of requirements described above are failing, exception should be thrown and a message should appear in stderr.
+- If any of requirements described above are failing, exception should be thrown and a message should appear in stderr.<br>
 - Error messages should be formed in the following way: <br>
 `Exception caught: $exceptionName. Can't $do_something.`
 
@@ -186,9 +188,9 @@ You can use [our test data](data) to test your solution.
 **We use the following definitions:** <br>
 Matrix https://mathworld.wolfram.com/Matrix.html <br>
 Matrix multiplication https://mathworld.wolfram.com/MatrixMultiplication.html <br>
-Matrix addition https://mathworld.wolfram.com/MatrixAddition.html
+Matrix addition (and subtraction) https://mathworld.wolfram.com/MatrixAddition.html
 
 ### Non-functional Requirements
-Your solution `MUST` have a Javadoc <br>
-You code `MUST` be readable and follow any of known code conventions <br>
-You `MUST` cover at least 25% of your code with unit tests <br>
+- Your solution `MUST` have an appropriate Javadoc. <br>
+- You code `MUST` be readable and follow any of known code conventions. <br>
+- You `MUST` cover at least 25% of your methods with unit tests. <br>
