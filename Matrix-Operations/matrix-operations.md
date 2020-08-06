@@ -16,7 +16,7 @@ Program run example: <br>
 > cat result01.txt
 [5 1 1; 9 0 0]
 ```
-
+Please note that there is no need to read from a file. You just need to process data from standard input. [You can learn about input and output redirection here.](http://linuxcommand.org/lc3_lts0070.php)
 
 Each matrix is given in the following way: `name=[x11 x12 ... x1n; x21 x22 ... x2n;...,xm1 xm2 ... xmm]` <br>
 Matrix operations expression follows matrix definitions.
