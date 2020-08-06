@@ -1,8 +1,9 @@
 ## Working with matrices
 ### Project Setup
 - Create a file named `TestAssignment.java`. <br>
+- For Unit Testing create a file named `Test_TestAssignment.java`. <br>
 - You'll need only basic Java features, **do not import** any libraries (except java.lang.*) and don't wrap the file in package. <br>
-- Add a file TestAssignment.java to a .zip archive named NameSurname.zip. For example: `JaneDoe.zip`<br>
+- Add files TestAssignment.java to a .zip archive named NameSurname.zip. For example: `JaneDoe.zip`<br>
 - We `WILL NOT` grade an assignment submitted omitting these rules.
 
 ### Matrix Jugglery
@@ -194,3 +195,4 @@ Matrix addition (and subtraction) https://mathworld.wolfram.com/MatrixAddition.h
 - Your solution `MUST` have an appropriate Javadoc. <br>
 - You code `MUST` be readable and follow any of known code conventions. <br>
 - You `MUST` cover at least 25% of your methods with unit tests. <br>
+- Unit Tests `MUST` be in the separate file.
