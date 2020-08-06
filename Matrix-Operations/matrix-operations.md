@@ -3,7 +3,7 @@
 - Create a file named `TestAssignment.java`. <br>
 - For Unit Testing create a file named `Test_TestAssignment.java`. <br>
 - You'll need only basic Java features, **do not import** any libraries (except java.lang.*) and don't wrap the file in package. <br>
-- Add files TestAssignment.java to a .zip archive named NameSurname.zip. For example: `JaneDoe.zip`<br>
+- Add files TestAssignment.java and Test_TestAssignment.java to a .zip archive named NameSurname.zip. For example: `JaneDoe.zip`<br>
 - We `WILL NOT` grade an assignment submitted omitting these rules.
 
 ### Matrix Jugglery
