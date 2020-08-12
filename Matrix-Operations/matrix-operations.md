@@ -10,7 +10,7 @@
 ### Matrix Jugglery
 The purpose of the task is to implement basic matrix operations: addition, subtraction and multiplication. <br>
 
-**  PLEASE IMPLEMENT THE TASK IN THE SIMPLEST POSSIBLE WAY! **
+**PLEASE IMPLEMENT THE TASK IN THE SIMPLEST POSSIBLE WAY!**
 
 Program run example (we are using input and output redirection, we are not reading from file or writing to a file!): <br>
 ```
