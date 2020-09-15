@@ -1,10 +1,11 @@
 ## Working with matrices
 ### Project Setup
 - Create a file named `TestAssignment.java`. <br>
-- **For writing a solution for test assignment**, you'll need only basic Java features, **do not import** any libraries (except java.lang.*, java.util.* and java.io.*) and don't wrap the file in package. <br>
-- **We won't grade files with other imported libraries, even if your solution is correct.**
+- For writing a solution for test assignment, it is sufficient to use only basic Java features. Try to implement it using only basic libraries (like java.lang.*, java.util.*, java.io.*). <br>
+- Don't wrap the file in package. <br>
 - For Unit Testing create a file named `Test_TestAssignment.java`. You may use any testing library you want for Unit testing.<br>
 - Add files TestAssignment.java and Test_TestAssignment.java to a .zip archive named NameSurname.zip. For example: `JaneDoe.zip`<br>
+- Your task will be graded using automatic tests. We should be able to run it as described below.
 - We `WILL NOT` grade an assignment submitted omitting these rules.
 
 ### Matrix Jugglery
@@ -12,7 +13,9 @@ The purpose of the task is to implement basic matrix operations: addition, subtr
 
 **PLEASE IMPLEMENT THE TASK IN THE SIMPLEST POSSIBLE WAY!**
 
-Program run example (we are using input and output redirection, we are not reading from file or writing to a file!): <br>
+Program run example <br>
+**This is the only way we're going to run your program. Please make sure before the submission that it runs as described. You may use our test cases to do so.** <br>
+Please note: we are using input and output redirection, we are not reading from file or writing to a file! <br>
 ```
 > java TestAssignment < data01.txt > result01.txt
 > cat result01.txt
