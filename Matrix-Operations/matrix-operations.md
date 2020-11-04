@@ -4,7 +4,8 @@
 - For writing a solution for test assignment, it is sufficient to use only basic Java features. Try to implement it using only basic libraries (like java.lang.*, java.util.*, java.io.*). <br>
 - Don't wrap the file in package. <br>
 - For Unit Testing create a file named `Test_TestAssignment.java`. You may use any testing library you want for Unit testing.<br>
-- Add files TestAssignment.java and Test_TestAssignment.java to a .zip archive named NameSurname.zip. For example: `JaneDoe.zip`<br>
+- Add files TestAssignment.java and Test_TestAssignment.java to a **.zip archive** named NameSurname.zip. For example: `JaneDoe.zip`<br>
+- Your solution `MUST` be in a .zip archive and named as defined above. <br>
 - Your task will be graded using automatic tests. We should be able to run it as described below.
 - We `WILL NOT` grade an assignment submitted omitting these rules.
 
